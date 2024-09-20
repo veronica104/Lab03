@@ -56,8 +56,5 @@ public class Cronometro {
     },delay);
     }
     
-   Cronometro cronometro = new Cronometro();
-   cronometro.iniciarcro();
-   cronometro.conguiAlarma(2,10);
    
 }
