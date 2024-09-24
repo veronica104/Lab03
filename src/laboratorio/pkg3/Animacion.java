@@ -69,8 +69,4 @@ public class Animacion extends JFrame {
         tiempo.setDelay(delay);  // Ajustamos el nuevo delay
     }
 
-    public static void main(String[] args) {
-        Animacion animacion = new Animacion();
-        animacion.setVisible(true);
-    }
 }
