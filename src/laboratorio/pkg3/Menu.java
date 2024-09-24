@@ -12,7 +12,7 @@ public class Menu {
     public static void main(String[] args) {
         
         Cronometro cronometro = new Cronometro();
-        AnimacionImagenes animacion = new AnimacionImagenes();
+        Animacion animacion = new Animacion();
         
         // *** AJUSTAR EL TITULO DE LA VENTANA (JFRAME) DEL MENU ***
         String titulo = "Lab03: Temporizadores ";
@@ -50,10 +50,7 @@ public class Menu {
                         cronometro.configuAlarma(2,10); 
                             break;
                         case 1:
-                             SwingUtilities.invokeLater(() -> {
                              animacion.setVisible(true);
-                                 });
-                             
                             break;
                         case 4:
                             System.exit(0);
